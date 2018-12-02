@@ -24,8 +24,10 @@ import com.github.dannil.scbjavaclient.client.energy.annualstatistics.EnergyAnnu
 import com.github.dannil.scbjavaclient.client.energy.monthlystatistics.EnergyMonthlyStatisticsClient;
 import com.github.dannil.scbjavaclient.communication.URLEndpoint;
 import com.github.dannil.scbjavaclient.test.extensions.Suite;
+import com.github.dannil.scbjavaclient.test.extensions.distributed.DistributedIT;
 
 @Suite
+@DistributedIT
 public class EnergyClientTest {
 
     @Test
