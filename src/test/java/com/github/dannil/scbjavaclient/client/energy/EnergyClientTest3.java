@@ -28,7 +28,7 @@ import com.github.dannil.scbjavaclient.test.extensions.distributed.DistributedTe
 
 @Suite
 @DistributedTests
-public class EnergyClientTest {
+public class EnergyClientTest3 {
 
     @Test
     public void createWithLocaleConstructor() {

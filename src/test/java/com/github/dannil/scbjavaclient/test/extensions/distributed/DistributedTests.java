@@ -9,7 +9,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
-@ExtendWith({ DistributedITExtensionHelper.class, DistributedITExtension.class })
-public @interface DistributedIT {
+@ExtendWith({ DistributedTestsExtension.class })
+public @interface DistributedTests {
 
 }
